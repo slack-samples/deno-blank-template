@@ -10,7 +10,7 @@ have permissions to install apps. If you don’t have one set up, go ahead and
 
 ### Install the Slack CLI
 
-To use this sample, you first need install and configure the Slack CLI.
+To use this template, you first need to install and configure the Slack CLI.
 Step-by-step instructions can be found in our
 [Quickstart Guide](https://api.slack.com/future/quickstart).
 
@@ -33,13 +33,20 @@ $ slack run
 Connected, awaiting events
 ```
 
-## Deploying Your App
+## Testing
 
-When you're done with development, you can deploy your app to Slack using
-`slack deploy`:
+Test filenames should be suffixed with `_test`. Run all tests with `deno test`:
 
 ```zsh
-# Deploy to a production workspace
+$ slack deno test
+```
+
+## Deploying Your App
+
+When you're done with development, you can deploy your app to a production
+workspace using `slack deploy`:
+
+```zsh
 $ slack deploy
 ```
 
