@@ -26,4 +26,4 @@ jobs:
         run: deno lint
 
       - name: Run tests
-         run: deno test --allow-none
+        run: deno test --allow-none
