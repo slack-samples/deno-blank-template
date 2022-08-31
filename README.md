@@ -38,7 +38,7 @@ Connected, awaiting events
 Test filenames should be suffixed with `_test`. Run all tests with `deno test`:
 
 ```zsh
-$ slack deno test
+$ deno test
 ```
 
 ## Deploying Your App
