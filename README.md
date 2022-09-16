@@ -155,6 +155,12 @@ to the next step.
 executed. A trigger file describes a scenario in which a workflow should be run,
 such as a user pressing a button or when a specific event occurs.
 
+### `/datastores`
+
+[Datastores](https://api.slack.com/future/datastores) can securely store and
+retrieve data for your application. Required scopes to use datastores include
+`datastore:write` and `datastore:read`.
+
 ## Resources
 
 To learn more about developing with the CLI, you can visit the following guides:
