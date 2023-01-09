@@ -7,6 +7,7 @@ on:
 
 jobs:
   execute:
+    if: github.repository == 'slack-samples/deno-blank-template'
     runs-on: ubuntu-latest
     steps:
       - name: Capture triggering branch name
