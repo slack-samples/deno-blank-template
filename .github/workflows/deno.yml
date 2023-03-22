@@ -29,3 +29,6 @@ jobs:
 
       - name: Run tests
         run: deno test --allow-none
+
+      - name: Run type check
+        run: deno check *.ts
