@@ -37,7 +37,7 @@ Start by cloning this repository:
 
 ```zsh
 # Clone this project onto your machine
-$ slack create my-app -t slack-samples/deno-starter-template
+$ slack create my-app -t slack-samples/deno-blank-template
 
 # Change into the project directory
 $ cd my-app
