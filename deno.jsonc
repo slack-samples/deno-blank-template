@@ -13,6 +13,7 @@
       "workflows"
     ]
   },
+  "importMap": "import_map.json",
   "lint": {
     "include": [
       "datastores",
@@ -27,10 +28,6 @@
   },
   "lock": false,
   "tasks": {
-    "test": "deno fmt --check && deno lint && deno test --permit-no-files --allow-read"
-  },
-  "imports": {
-    "deno-slack-sdk/": "https://deno.land/x/deno_slack_sdk@2.15.0/",
-    "deno-slack-api/": "https://deno.land/x/deno_slack_api@2.8.0/"
+    "test": "deno fmt --check && deno lint && deno test --allow-read --allow-none"
   }
 }
